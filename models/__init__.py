@@ -1,5 +1,4 @@
 from .sa_autoencoder import SlotAttentionAE
-from .sa_classifier import SlotAttentionClassifier
-from .quant_class import QuantizedClassifier
+from .sa_classifier import QuantizedClassifier
 
-__all__ = ['SlotAttentionAE', 'SlotAttentionClassifier', 'QuantizedClassifier']
+# __all__ = ['SlotAttentionAE', 'SlotAttentionClassifier', 'QuantizedClassifier']
